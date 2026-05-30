@@ -5,3 +5,6 @@
 lib/
 Ikemen_GO.exe
 save/config.ini 
+# linux binaries
+Ikemen_GO_Linux
+Ikemen_GO.desktop
