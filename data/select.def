@@ -191,6 +191,7 @@
  ;Insert your characters below.
 blu_pots
 ryu_pots
+Mister_Mister, stages/kfm_zaxis.def
 kfm, stages/kfm.def
 kfm_zss, stages/kfm.def
 kfm720, stages/kfm.def, order=0
