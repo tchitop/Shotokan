@@ -5,7 +5,7 @@ case "$OSTYPE" in
 	darwin*)
 		# Prefer the .app if present right here
 		xattr -rd com.apple.quarantine "$(pwd)" 2>/dev/null || true
-		APPDIR="./I.K.E.M.E.N-Go.app"
+		APPDIR="./Shotokan.app"
 		if [ -d "$APPDIR" ]; then
 			xattr -d com.apple.quarantine "$APPDIR" 2>/dev/null || true
 			chmod +x "$APPDIR/Contents/MacOS/bundle_run.sh" 2>/dev/null || true
@@ -19,7 +19,7 @@ case "$OSTYPE" in
 				exec "$BIN"
 			fi
 		done
-		echo "Unable to locate I.K.E.M.E.N-Go.app or a macOS binary in the top directory." >&2
+		echo "Unable to locate Shotokan.app or a macOS binary in the top directory." >&2
 		exit 1
 	;;
 	linux*)

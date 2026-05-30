@@ -2,7 +2,7 @@
 
 ; Motif: IKEMEN1
 ; Optimal resolution: 1280x720
-; Requires: IKEMEN GO 1.0 (Ikemen nightly)
+; Requires: Shotokan 1.0 (Ikemen nightly)
 
 ; Notes about fonts:
 ;   - fonts can be specified in the [Files] section (no limit to how many),
@@ -30,7 +30,7 @@ localcoord = 1280,720 	;Local coordinate space width and height
 ;2. data/
 ;3. your MUGEN directory
 ;eg. If you write "spr = system.sff", and this system.def file
-;    is in ~/ikemen/data/mymotif/, then Ikemen will first look
+;    is in ~/ikemen/data/mymotif/, then Shotokan will first look
 ;    for ~/ikemen/data/mymotif/system.sff. If it does not find
 ;    it there, it looks for ~/ikemen/data/system.sff (the default).
 ;    Finally, if that is not found, it will look for

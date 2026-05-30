@@ -25,7 +25,7 @@
 ;   - fonts indexed for system.def do not refer to the ones in fight.def
 ;   - fonts are searched in directories in the following order:
 ;     1. system directory (where system.def is located)
-;     2. top-level Ikemen directory (not recommended to keep custom fonts
+;     2. top-level Shotokan directory (not recommended to keep custom fonts
 ;        here)
 ;     3. data/ (not recommended to keep custom fonts here)
 ;     4. font/
@@ -2559,7 +2559,7 @@ Welcome to I.K.E.M.E.N GO engine! (%s - %s)
 
 	cancel.key = a, b, c, x, y, z, s, m
 
-	; Not implemented yet in Ikemen
+	; Not implemented yet in Shotokan
 	; --------------------------------------------------------------------------
 	;select.enabled = 0
 	;vsscreen.enabled = 0
@@ -3222,7 +3222,7 @@ Welcome to I.K.E.M.E.N GO engine! (%s - %s)
 	title.localcoord = 320, 240
 
 	; Refer to [Title Info] menu parameters for extra comments explaining how to
-	; define menus (unlike Mugen, where option screen look is hardcoded, Ikemen
+	; define menus (unlike Mugen, where option screen look is hardcoded, Shotokan
 	; follows vanilla Mugen convention from Title Screen for building menus)
 
 	menu.pos = 85, 33
@@ -5533,11 +5533,11 @@ Welcome to I.K.E.M.E.N GO engine! (%s - %s)
 	text.projection = orthographic
 	text.focallength = 2048
 	;;item.text = 
-	text.reload.text = Some selected options require Ikemen to be restarted.\nPress any key to exit the program.
-	text.noreload.text = Some selected options require Ikemen to be restarted.\nPress any key to continue.
+	text.reload.text = Some selected options require Shotokan to be restarted.\nPress any key to exit the program.
+	text.noreload.text = Some selected options require Shotokan to be restarted.\nPress any key to continue.
 	text.keys.text = Conflict between button keys detected.\nAll keys should have unique assignment.\n\nPress any key to continue.\nPress ESC to reset.
 	text.pad.text = Controller not detected.\nCheck if your controller is plugged in.
-	text.shaders.text = No external OpenGL shaders detected.\nIkemen GO supports files with .vert and .frag extensions.\nShaders are loaded from \'./external/shaders' directory.
+	text.shaders.text = No external OpenGL shaders detected.\nShotokan supports files with .vert and .frag extensions.\nShaders are loaded from \'./external/shaders' directory.
 	text.config.text = Netplay/replay startup config mismatch:\n%s
 	text.disconnect.text = Player %d disconnected.
 	text.desync.text = Desync error.\nIf the problem persists, please report it at:\nhttps://github.com/ikemen-engine/Ikemen-GO/issues.\nThank you for your patience.

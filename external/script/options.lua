@@ -170,7 +170,7 @@ options.t_itemname = {
 			--modifyGameOption('Config.EscOpensMenu', true)
 			--modifyGameOption('Config.BackgroundLoading', false) --TODO: not implemented
 			--modifyGameOption('Config.FirstRun', false)
-			--modifyGameOption('Config.WindowTitle', "Ikemen GO")
+			--modifyGameOption('Config.WindowTitle', "Shotokan")
 			--modifyGameOption('Config.WindowIcon', {"external/icons/IkemenCylia_256.png", "external/icons/IkemenCylia_96.png", "external/icons/IkemenCylia_48.png"})
 			--modifyGameOption('Config.System', "external/script/main.lua")
 			--modifyGameOption('Config.ScreenshotFolder', "")
