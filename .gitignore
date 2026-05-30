@@ -1,0 +1,6 @@
+# macos binaries
+*.app/
+
+# windows binaries
+lib/
+Ikemen_GO.exe
