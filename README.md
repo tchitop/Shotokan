@@ -1,18 +1,24 @@
 
-<p align="center">
-  <a href="https://ikemen-engine.github.io/">
-    <img src="https://github.com/user-attachments/assets/0dcd7ae1-5c9d-44e1-aa32-9ec4b9ed3952" style="width: 699px; alt="IKEMEN GO Logo"/>
-  </a>
-</p>
+
+## Setup
+
+## Windows
+
+lib/ Ordner und Ikemen_GO.exe hier her kopieren 
+
+
+
 
 Ikemen GO is an open source fighting game engine that supports resources from the [M.U.G.E.N](https://en.wikipedia.org/wiki/Mugen_(game_engine)) engine, written in Google’s programming language, [Go](https://go.dev/). It is a complete rewrite of a prior engine known simply as Ikemen.
 
 ## Features
+
 Ikemen GO aims for backwards-compatibility on par with M.U.G.E.N version 1.1 Beta, while simultaneously expanding on its features in a variety of ways.
 
 Refer to [our wiki](https://github.com/ikemen-engine/Ikemen-GO/wiki) to see a comprehensive list of new features that have been added in Ikemen GO.
 
 ## Installing
+
 Ready to use builds for Windows, macOS and Linux can be found in the [releases section](https://github.com/ikemen-engine/Ikemen-GO/releases) of this repository. You can find nightly builds [here](https://github.com/ikemen-engine/Ikemen-GO/releases/tag/nightly) as well, which update on every commit.
 
 ## Running
