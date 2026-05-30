@@ -27,9 +27,9 @@ localcoord = 1280,720       ;Local coordinate space width and height (new in MUG
 ;Directories are checked in this order:
 ;1. current directory system.def is in
 ;2. data/
-;3. your Ikemen directory
+;3. your Shotokan directory
 ;eg. If you write "spr = system.sff", and this system.def file
-;    is in ~/ikemen/data/mymotif/, then Ikemen will first look
+;    is in ~/ikemen/data/mymotif/, then Shotokan will first look
 ;    for ~/ikemen/data/mymotif/system.sff. If it does not find
 ;    it there, it looks for ~/ikemen/data/system.sff (the default).
 ;    Finally, if that is not found, it will look for
@@ -185,7 +185,7 @@ cursor.done.snd = 100,1
 cancel.snd = 100,2
 
 ; Flexible submenu grouping.
-;Full documentation of this feature is available on Ikemen GO features wiki
+;Full documentation of this feature is available on Shotokan features wiki
 
 ; Submenu: Arcade
 menu.itemname.menuarcade = ARCADE
@@ -354,7 +354,7 @@ overlay.alpha = 0, 128
 
 ;----------------------------
 [Infobox Text]
-Welcome to I.K.E.M.E.N GO engine! (%s - %s)
+Welcome to Shotokan! (%s - %s)
 
 * This is a public development release, for testing purposes.
 * This build may contain bugs and incomplete features.
@@ -2193,7 +2193,7 @@ credits.font = 2,0,0
 credits.scale = 1.0, 1.0
 
 ; Flexible submenu grouping.
-;Full documentation of this feature is available on Ikemen GO features wiki
+;Full documentation of this feature is available on Shotokan features wiki
 
 menu.itemname.arcade = ARCADE
 

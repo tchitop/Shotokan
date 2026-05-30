@@ -189,7 +189,9 @@
  ; }
  ;
  ;Insert your characters below.
-
+blu_pots
+ryu_pots
+kfm, stages/kfm.def
 kfm_zss, stages/kfm.def
 kfm720, stages/kfm.def, order=0
 kfm_zaxis, stages/kfm.def, order=0
@@ -272,6 +274,7 @@ stages/interactivestage.def
 stages/kfm.def
 stages/stage0.def
 stages/stage0-720.def
+stages/VertigoPointTower.def
 
 ;-------------------------------------------------------------------------------
 [Options]
