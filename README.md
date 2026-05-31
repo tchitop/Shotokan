@@ -10,7 +10,7 @@ lib/ Ordner und Ikemen_GO.exe hier her kopieren
 
 
 Shotokan is an open source fighting game engine that supports resources from the [M.U.G.E.N](https://en.wikipedia.org/wiki/Mugen_(game_engine)) engine, written in Google’s programming language, [Go](https://go.dev/). It is a complete rewrite of a prior engine known simply as Ikemen.
-# cool.,
+
 ## Features
 
 Shotokan aims for backwards-compatibility on par with M.U.G.E.N version 1.1 Beta, while simultaneously expanding on its features in a variety of ways.
