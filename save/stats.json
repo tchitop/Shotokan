@@ -1,9 +1,28 @@
 {
-  "playtime": 0,
+  "playtime": 152.44,
   "modes": {
     "training": {
       "playtime": 0,
       "clear": 0
+    },
+    "arcade": {
+      "playtime": 152.44,
+      "clear": 0,
+      "ranking": [
+        {
+          "score": 28700,
+          "time": 109.62,
+          "win": 1,
+          "lose": 1,
+          "consecutive": 0,
+          "name": "",
+          "chars": [
+            "kfm"
+          ],
+          "tmode": 0,
+          "ailevel": 5
+        }
+      ]
     }
   }
 }

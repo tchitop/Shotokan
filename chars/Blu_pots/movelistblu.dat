@@ -1,0 +1,19 @@
+<#f0f000>:Unique Blocks:</>
+High Blocking						_F_+^X
+Low Blocking						_DF_+^X
+Air Blocking						_AIR_F_+^X
+
+<#f0f000>:Throws:</>
+Blu Throw								[_B/_F]_+^Y
+
+<#f0f000>!!Special Moves!!</>
+Blu Palm_EX								_QDF^P
+Blu Upper_EX							_DSF^P
+Blu Fu Blow_EX							_QDB^P
+Blu Zankou_EX							_QDF^K
+Blu Knee_EX								_F_F^K
+_!Extra kick								^K
+
+<#f0f000>!!Super Blu Moves!!!</>
+Triple Blu Palm Smash <#bebebe>(1000)</>		_QDF_QDF^P
+Blu Upper Smash <#bebebe>(1000)</>		_QDB_QDB^P
