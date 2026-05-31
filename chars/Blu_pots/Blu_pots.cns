@@ -6,13 +6,13 @@
 ;Amount of life to start with
 life = 1000
 ;attack power (more is stronger)
-attack = 100
+attack = 70 
 ;defensive power (more is stronger)
-defence = 100
+defence = 155
 ;Percentage to increase defense everytime player is knocked down
 fall.defence_up = 50
 ;Time which player lies down for, before getting up
-liedown.time = 6
+liedown.time = 3
 ;Number of points for juggling
 airjuggle = 15
 ;Default hit spark number for HitDefs
@@ -50,18 +50,18 @@ shadowoffset = 0     ;Number of pixels to vertically offset the shadow
 draw.offset = 0,0    ;Player drawing offset in pixels (x, y). Recommended 0,0
 
 [Velocity]
-walk.fwd  = 2.4      ;Walk forward
-walk.back = -2.2     ;Walk backward
-run.fwd  = 4.6, 0    ;Run forward (x, y)
-run.back = -4.5,-3.8 ;Hop backward (x, y)
-jump.neu = 0,-8.4    ;Neutral jumping velocity (x, y)
-jump.back = -2.55    ;Jump back Speed (x, y)
-jump.fwd = 2.5       ;Jump forward Speed (x, y)
-runjump.back = -2.55,-8.1 ;Running jump speeds (opt)
-runjump.fwd = 4,-8.1      ;.
-airjump.neu = 0,-8.1      ;.
-airjump.back = -2.55      ;Air jump speeds (opt)
-airjump.fwd = 2.5         ;.
+walk.fwd  = 3.4      ;Walk forward
+walk.back = -3.2     ;Walk backward
+run.fwd  = 6.6, 0    ;Run forward (x, y)
+run.back = -6.5,-3.8 ;Hop backward (x, y)
+jump.neu = 0,-10.4    ;Neutral jumping velocity (x, y)
+jump.back = -4.55    ;Jump back Speed (x, y)
+jump.fwd = 4.5       ;Jump forward Speed (x, y)
+runjump.back = -4.55,-10.1 ;Running jump speeds (opt)
+runjump.fwd = 6,-10.1      ;.
+airjump.neu = 0,-10.1      ;.
+airjump.back = -3.55      ;Air jump speeds (opt)
+airjump.fwd = 3.5         ;.
 air.gethit.groundrecover = -.15,-3.5  ;Velocity for ground recovery state (x, y) **MUGEN 1.0**
 air.gethit.airrecover.mul = .5,.2     ;Multiplier for air recovery velocity (x, y) **MUGEN 1.0**
 air.gethit.airrecover.add = 0,-4.5    ;Velocity offset for air recovery (x, y) **MUGEN 1.0**
@@ -71,7 +71,7 @@ air.gethit.airrecover.up = -2         ;Extra y-velocity for holding up during ai
 air.gethit.airrecover.down = 1.5      ;Extra y-velocity for holding down during air recovery **MUGEN 1.0**
 
 [Movement]
-airjump.num = 1       ;Number of air jumps allowed (opt)
+airjump.num = 2       ;Number of air jumps allowed (opt)
 airjump.height = 35   ;Minimum distance from ground before you can air jump (opt)
 yaccel = .44          ;Vertical acceleration
 stand.friction = .85  ;Friction coefficient when standing
