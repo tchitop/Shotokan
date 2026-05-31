@@ -189,6 +189,8 @@
  ; }
  ;
  ;Insert your characters below.
+ 
+sol_redguy
 blu_pots
 ryu_pots
 kfm, stages/kfm.def
@@ -275,6 +277,8 @@ stages/kfm.def
 stages/stage0.def
 stages/stage0-720.def
 stages/VertigoPointTower.def
+stages/hell_stage.def
+stages/happyplace_stage.def
 
 ;-------------------------------------------------------------------------------
 [Options]
