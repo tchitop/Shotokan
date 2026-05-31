@@ -1,60 +1,173 @@
+# Shotokan
 
+Shotokan is a custom fighting game project based on the open source engine [Ikemen GO](https://github.com/ikemen-engine/Ikemen-GO).
+
+This project is not the original Ikemen GO engine. It is a modified and customized version created for our own game project. We changed the branding, added our own launcher files, adjusted the start experience, implemented custom characters, changed icons and names, and added custom keybinds and abilities.
+
+## Project Changes
+
+Compared to the original Ikemen GO project, Shotokan includes several custom changes:
+
+* Custom project name: **Shotokan**
+* New project icons and branding
+* Custom start animation
+* Custom `Shotokan_launch.command` file for starting the game
+* Modified keybinds
+* Custom abilities and gameplay adjustments
+* Added and implemented characters, including:
+
+  * Joe Biden
+  * Ryu
+  * Blu
+  * Sol Red Guy
+* Changed names and visual elements inside the project
+* Adjusted files and resources for our own game version
+
+## Legal Notice
+
+Shotokan is based on Ikemen GO, which is open source and licensed under the MIT License.
+
+All original Ikemen GO engine rights belong to the original Ikemen GO contributors. This project does not claim ownership of the original engine.
+
+Some included or referenced assets, characters, names, images, sounds, animations, or icons may belong to their respective owners. These assets are used for educational, non-commercial, parody, fan-project, or demonstration purposes where applicable.
+
+If any copyrighted material is included, the rights remain with the original creators or owners. This project should not be sold or distributed in a way that violates copyright, trademark, personality rights, or other applicable laws.
+
+For public releases, every third-party asset should be checked carefully. Only assets with proper permission, open licenses, original creation, or legally allowed usage should be included.
 
 ## Setup
 
 ## Windows
 
-lib/ Ordner und Ikemen_GO.exe hier her kopieren 
+To run Shotokan on Windows:
+
+1. Download and unzip the zip in Releases
+2. Start the game by running the Shotokan/Ikemen_GO executable or launcher command file.
+
+Required files:
+
+```text
+lib/
+Ikemen_GO.exe
+```
+
+The project folder should contain the required engine files, custom resources, characters, icons, and launcher files.
+
+## macOS / Linux
+
+On macOS or Linux, use the included `Shotokan_launch.command` file.
+
+You may need to allow execution first:
+
+```bash
+chmod +x Shotokan_launch.command
+```
+
+Then start the game:
+
+```bash
+./Shotokan_launch.command
+```
 
 
+## About Ikemen GO
 
+Ikemen GO is an open source fighting game engine that supports resources from the [M.U.G.E.N](https://en.wikipedia.org/wiki/Mugen_%28game_engine%29) engine. It is written in [Go](https://go.dev/) and is a complete rewrite of an earlier engine known as Ikemen.
 
-Shotokan is an open source fighting game engine that supports resources from the [M.U.G.E.N](https://en.wikipedia.org/wiki/Mugen_(game_engine)) engine, written in Google’s programming language, [Go](https://go.dev/). It is a complete rewrite of a prior engine known simply as Ikemen.
+Shotokan uses Ikemen GO as its technical base and builds a custom game project on top of it.
 
 ## Features
 
-Shotokan aims for backwards-compatibility on par with M.U.G.E.N version 1.1 Beta, while simultaneously expanding on its features in a variety of ways.
+Shotokan aims to provide a customized fighting game experience based on Ikemen GO.
 
-Refer to [our wiki](https://github.com/ikemen-engine/Ikemen-GO/wiki) to see a comprehensive list of new features that have been added in Shotokan.
+Main features include:
 
-## Installing
+* M.U.G.E.N-compatible fighting game engine base
+* Custom character roster
+* Modified branding
+* Custom icons
+* Custom start animation
+* Custom launcher
+* Modified controls
+* Custom abilities
+* Own project structure and presentation
 
-Ready to use builds for Windows, macOS and Linux can be found in the [releases section](https://github.com/ikemen-engine/Ikemen-GO/releases) of this repository. You can find nightly builds [here](https://github.com/ikemen-engine/Ikemen-GO/releases/tag/nightly) as well, which update on every commit.
+Ikemen GO itself aims for compatibility with M.U.G.E.N 1.1 Beta while also adding new features. More information about Ikemen GO can be found in the official Ikemen GO wiki.
 
 ## Running
-Download the ZIP archive that matches your operating system and extract its contents to your preferred location.
 
-On Windows, double-click `Shotokan.exe`.
-On macOS or Linux, double-click `Shotokan.command`.
+Download or prepare the project folder for your operating system.
+
+On Windows:
+
+```text
+Ikemen_GO.exe
+```
+
+or:
+
+```text
+Ikemen_GO.exe
+```
+
+depending on your build setup.
+
+On macOS or Linux:
+
+```text
+Shotokan_launch.command
+```
+
 
 ## Developing
-These instructions are for those interested in developing the Shotokan engine itself. Instructions for creating custom stages, fonts, characters and other resources can be found in the community forum.
 
-### Building
-For setup and platform-specific steps, see [BUILDING.md](./BUILDING.md).
-It covers Windows, Linux (including ARM64), macOS (Apple Silicon and Intel), and Android (APK via Docker).
+This project contains custom content and modifications based on Ikemen GO.
 
-### Debugging
-In order to run the compiled Shotokan executable, you will need to download the [engine dependencies](https://github.com/ikemen-engine/Ikemen-GO-Screenpack) and unpack them into the Ikemen-GO source directory. After that, you can use [Goland](https://www.jetbrains.com/go/) or [Visual Studio Code](https://code.visualstudio.com/) to debug.
+For engine-level development, build instructions should follow the original Ikemen GO build process.
+
+For Shotokan-specific development, you can edit:
+
+* characters
+* stages
+* screenpack files
+* icons
+* launcher files
+* keybinds
+* abilities
+* project branding
+* start animation
 
 ## Troubleshooting
-If you run into any issues with Shotokan, you can report it on our [issue tracker](https://github.com/ikemen-engine/Ikemen-GO/issues). It is recommend to read [this page](https://github.com/ikemen-engine/Ikemen-GO/blob/develop/CONTRIBUTING.md) before submitting a bug report.
+
+If the game does not start, check the following:
+
+* Is the `lib/` folder included?
+* Is `Ikemen_GO.exe` included on Windows?
+* Are the `.command` files executable on macOS or Linux?
+* Are all custom characters placed in the correct folder?
+* Are character definitions correctly referenced?
+* Are all required assets included?
+* Are paths written correctly for your operating system?
+
+On macOS or Linux, fix launcher permissions with:
+
+```bash
+chmod +x launcher.command
+chmod +x Shotokan.command
+```
 
 ## References
-- [The original reposity of Ikemen GO.](https://osdn.net/users/supersuehiro/pf/ikemen_go/) This project was forked from the original Ikemen repository.
 
-- [The default motif bundled with the engine.](https://github.com/ikemen-engine/Ikemen-GO-Screenpack) Note that this motif is licensed under CC-BY 3 rather than Shotokan's source, which is MIT.
-
-## Name
-"Ikemen" is an acronym of:
-
-**い**つまでも **完**成しない **永**遠に **未**完成 **エン**ジン  
-**I**tsu made mo **K**ansei shinai **E**ien ni **M**ikansei **EN**gine
+* [Original Ikemen GO repository](https://github.com/ikemen-engine/Ikemen-GO)
+* [M.U.G.E.N engine information](https://en.wikipedia.org/wiki/Mugen_%28game_engine%29)
+* [Go programming language](https://go.dev/)
 
 ## License
-Shotokan engine is under the MIT License.
-Bundled screenpack assets are under Creative Commons licenses.
-See [LICENSE.txt](LICENSE.txt) for more details.
-This program statically links FFmpeg (LGPL v2.1).
 
-The exact corresponding source for the FFmpeg build is provided on the [release page](https://github.com/ikemen-engine/Ikemen-GO/releases/latest) as Source-code-FFmpeg.tar.gz. You may rebuild this application against a modified FFmpeg.
+The original Ikemen GO engine is licensed under the MIT License.
+
+Shotokan contains custom modifications and project-specific files. Custom files created by the Shotokan team belong to their respective creators unless stated otherwise.
+
+Bundled third-party assets may use different licenses. Each asset should be checked separately before public distribution.
+
+This project may statically link or use dependencies such as FFmpeg depending on the build. For original Ikemen GO licensing and dependency details, refer to the official Ikemen GO repository and release information.
