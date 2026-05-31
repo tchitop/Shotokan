@@ -22,7 +22,7 @@ sprite  = sol_redguy.sff           ;Sprite
 anim    = sol_redguy.air           ;Animation
 sound   = sol_redguy.snd           ;Sound
 ai      = sol_redguy.ai            ;AI hints data (not used)
-movelist = movelistblu.dat     ;Ikemen feature: Movelist
+movelist = movelistsol.dat     ;Ikemen feature: Movelist
 
 ; Maps character selection buttons to palette numbers.
 [Palette Keymap]
