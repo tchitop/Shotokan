@@ -1,8 +1,12 @@
 {
-  "playtime": 0,
+  "playtime": 42.82,
   "modes": {
     "training": {
       "playtime": 0,
+      "clear": 0
+    },
+    "arcade": {
+      "playtime": 42.82,
       "clear": 0
     }
   }
